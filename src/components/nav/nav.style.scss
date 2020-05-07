@@ -1,0 +1,42 @@
+
+.nav{
+    background:white;
+    color: white;
+    font-family: "Gilroy-bold", sans-serif;
+    border-right: 1px solid black;
+
+    
+}
+
+@media screen and (max-width: 768px){
+    .nav{
+        width: 50vw;
+        height: 100vh;
+
+        .nav-section{
+            width: 50vw;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+    
+            .nav-item{
+                list-style-type: none;
+                padding: 0rem;
+                margin: 1rem;
+                margin-bottom: 2rem;
+    
+                a{
+                    font-size: 1.8rem;
+                    font-weight: bolder;
+                    text-decoration: none;
+                    color: black;
+                }
+                a:active{
+                    color: red;
+                }
+            }
+        }
+    }
+}
