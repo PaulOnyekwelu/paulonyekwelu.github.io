@@ -3,19 +3,17 @@
     background:white;
     color: white;
     font-family: "Gilroy-bold", sans-serif;
-    border-right: 1px solid black;
-
-    
 }
 
 @media screen and (max-width: 768px){
     .nav{
         width: 50vw;
         height: 100vh;
+        border-right: 1px solid black;
 
         .nav-section{
             width: 50vw;
-            height: 90vh;
+            height: 80vh;
             display: flex;
             flex-direction: column;
             align-items: flex-end;
@@ -32,9 +30,6 @@
                     font-weight: bolder;
                     text-decoration: none;
                     color: black;
-                }
-                a:active{
-                    color: red;
                 }
             }
         }
