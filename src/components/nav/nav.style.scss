@@ -2,17 +2,29 @@
 .nav{
     background:white;
     color: white;
-    font-family: "Gilroy-bold", sans-serif;
+    font-family: 'Gilroy-light', sans-serif;
 }
 
 @media screen and (max-width: 768px){
     .nav{
-        width: 50vw;
+        width: 100vw;
         height: 100vh;
-        border-right: 1px solid black;
+        // display: flex;
+        // flex-direction: column;
+
+        .logo-section{
+            width: 100%;
+            display:flex;
+            justify-content: space-evenly;
+
+            .close-menu{
+                color: rgb(72,49,212);
+                font-size: 3rem;
+            }
+        }
 
         .nav-section{
-            width: 50vw;
+            width: 75vw;
             height: 80vh;
             display: flex;
             flex-direction: column;
@@ -29,7 +41,7 @@
                     font-size: 1.8rem;
                     font-weight: bolder;
                     text-decoration: none;
-                    color: black;
+                    color: rgb(72,49,212);
                 }
             }
         }

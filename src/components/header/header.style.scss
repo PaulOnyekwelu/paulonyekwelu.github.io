@@ -1,0 +1,50 @@
+.header{
+    
+}
+
+@media screen and (max-width: 786px){
+    .header{
+        width: 100vw;
+
+        .header-left{
+            display: flex;
+            justify-content: space-between;
+            width: 100vw;
+            height: 60vh;
+            background: rgb(72,49,212);
+
+            .hamburger{
+                margin: 1rem;
+                & > div {
+                    width: 1rem;
+                    height: 2px;
+                    background: rgb(204,242,129);
+                    margin-top: 0.6rem;
+                    margin-left: 1rem;
+     
+                }
+                & > div:nth-child(1){
+                    width: 3rem;
+                }
+                & > div:nth-child(2){
+                    width: 2rem;
+                }
+             }
+    
+            .mobile{
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+        }
+
+        .header-right{
+            width: 100vw;
+            height: 40vh;
+            background: rgb(204,242,129);
+            
+
+        }
+    }
+}

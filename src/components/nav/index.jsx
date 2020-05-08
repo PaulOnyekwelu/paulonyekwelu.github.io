@@ -1,12 +1,13 @@
 import React from 'react';
 import './nav.style.scss';
-import Logo from '../logo';
 
-const Nav = () => {
+const Nav = ({customClass, MenuToggle}) => {
     return (
-            <nav className="nav" >
-                <div>
-                   <Logo /> 
+            <nav className={`nav ${customClass}`} >
+                <div className="logo-section">
+                   <span className="close-menu" onClick={MenuToggle} >
+                   &#10005;
+                   </span>
                 </div>
                 <div>
                     <ul className="nav-section">
