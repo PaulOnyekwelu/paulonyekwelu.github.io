@@ -10,24 +10,24 @@ const Header = () => {
 
     const toggleHamburger = () => {
         setMenuToggle(!menuToggle)
+        console.log(menuToggle)
     }
     return (
         <header className="header"> 
+            <Nav customClass={ menuToggle ? 'showMenu' : 'hideMenu' } MenuToggle = {toggleHamburger}  />     
             <div className="header-left">
-                <div className="hamburger" onClick={toggleHamburger}>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div className="header-left-top">
+                    <div className="hamburger" onClick={toggleHamburger}>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <Logo />
                 </div>
-                {
-                    menuToggle ? <Nav customClass={'mobile'} MenuToggle = {toggleHamburger}/> : null
-                }
-                <Logo />
             </div>
             <div className="header-right">
                 <Avatar />
-            </div>
-            
+            </div>        
         </header>
     )
 }
