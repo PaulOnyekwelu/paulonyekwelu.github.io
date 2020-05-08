@@ -4,6 +4,7 @@ import Logo from '../logo';
 
 import './header.style.scss';
 import Avatar from '../avatar';
+import HeaderDescription from '../header-description';
 
 const Header = () => {
     let [menuToggle, setMenuToggle] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
                     </div>
                     <Logo />
                 </div>
-                
+                <HeaderDescription />
             </div>
             <div className="header-right">
                 <Avatar />
