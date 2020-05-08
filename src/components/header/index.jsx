@@ -24,6 +24,7 @@ const Header = () => {
                     </div>
                     <Logo />
                 </div>
+                
             </div>
             <div className="header-right">
                 <Avatar />
