@@ -11,6 +11,12 @@ import MongoDbImg from './mongodb.png';
 import NodeImg from './nodejs.png';
 import JinjaImg from './jinja.png';
 import EjsImg from './ejs.png';
+import PostgreImg from './postgresql.png';
+import ReactImg from './react.png';
+import SassImg from './sass.png';
+import WebPackImg from './webpack.png';
+import PythonImg from './python.jpg';
+import FlaskImg from './flask.png';
 
 export {
     BootstrapImg,
@@ -26,4 +32,10 @@ export {
     NodeImg,
     JinjaImg,
     EjsImg,
+    PostgreImg,
+    ReactImg,
+    SassImg,
+    WebPackImg, 
+    PythonImg,
+    FlaskImg,
 }
