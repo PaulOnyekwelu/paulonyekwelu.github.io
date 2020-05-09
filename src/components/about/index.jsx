@@ -5,7 +5,7 @@ import './about.style.scss';
 const AboutMe = () => {
     return (
         <section className = "about-me">
-            <h2 className="about-me-title">About Me</h2>
+            <h2 className="about-me-title">ABOUT ME</h2>
             <div className = "about-me-text">
                 <p>
                     My name is Paul Onyekwelu and I am a software Developer always in beta mode. 
