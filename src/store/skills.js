@@ -16,7 +16,7 @@ import {
     ReactImg,
     SassImg,
     WebPackImg, 
-    PythonImg,
+    //  PythonImg,
     FlaskImg,
 } from "../images/skill-logo";
 
@@ -39,7 +39,7 @@ const skillSets = {
     ],
     "BACK-END":[
         { id:11, imgUrl:NodeImg, caption: "NodeJs", alt:""},
-        { id:12, imgUrl:PythonImg, caption: "Python", alt:""},
+        // { id:12, imgUrl:PythonImg, caption: "Python", alt:""},
         { id:13, imgUrl:FlaskImg, caption: "Flask", alt:""},
         { id:14, imgUrl:MongoDbImg, caption: "MongoDB", alt:""},
         { id:15, imgUrl:PostgreImg, caption: "PostgreSql", alt:""},

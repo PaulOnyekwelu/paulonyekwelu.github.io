@@ -11,7 +11,6 @@ const Header = () => {
 
     const toggleHamburger = () => {
         setMenuToggle(!menuToggle)
-        console.log(menuToggle)
     }
     return (
         <header className="header"> 
