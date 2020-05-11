@@ -1,22 +1,25 @@
-import React, {useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Data from '../../store/projects';
+import extLink from '../../images/external-link.png';
 
 import './projects.style.scss';
+import { GithubImg } from '../../images/skill-logo';
 
 
 const Projects = () => {
 	const [ projectSets, setProjectSets ] = useState(Data);
 
     const toggleProjectRear = (id) => {
-        setProjectSets(prevProjectSets => {
-            for(let projectSet of prevProjectSets){
-                if(projectSet.id === id){
-                    console.log(projectSet.showRear)
-                    return [...prevProjectSets, {...projectSet, showRear: !projectSet.showRear }];
-                }
+        const newProjectSets = projectSets.map(projectSet => {
+            if(projectSet.id === id){
+                projectSet.showRear = !projectSet.showRear;
             }
+            return projectSet;
         })
-	}
+
+        setProjectSets(newProjectSets);
+    }
+    
 	
     return (
         <section className="projects">
@@ -27,7 +30,7 @@ const Projects = () => {
                         
                         return (
                             <div className="project" key={ProjectSet.id}>
-                                <div className={`project-front ${ ProjectSet.showRear ? 'hide-front' : 'show-front'} `} id={ProjectSet.id} onClick={()=>toggleProjectRear(ProjectSet.id)} >
+                                <div className={`project-front ${ ProjectSet.showRear ? 'hide-front' : 'show-front'} `}  onClick={()=>toggleProjectRear(ProjectSet.id)} >
                                     <div className="project-img">
                                         <img src={ProjectSet.imageUrl} alt=""/>
                                     </div>
@@ -39,12 +42,30 @@ const Projects = () => {
                                     </div>
                                 </div>
                                 <div className="project-rear">
-                                    <div>
+                                    <div className="project-rear-title">
                                         <span className="close-menu" onClick={()=>toggleProjectRear(ProjectSet.id)} >&#10005;</span>
+                                        <span className="accomplishment-heading"><h4>ACCOMPLISHMENTS</h4></span>
                                     </div>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, nesciunt dolore fuga 
-                                    incidunt odit sunt accusantium laborum aliquid quia expedita! Omnis culpa natus 
-                                    accusamus, impedit obcaecati porro hic ipsam vel!
+                                    <div className="project-accomplishments">
+                                        {
+                                            ProjectSet.accomplishments.map( accomplishment => {
+                                                return (
+                                                    <>
+                                                    <span className="accomplishment-id"> -> </span>
+                                                    <span className="accomplishment-detail">{accomplishment.detail}</span> <br />
+                                                    </>
+                                                )
+                                            })
+                                        }
+                                    </div> 
+                                    <div className="project-links">
+                                        <span className="link">
+                                            <a href={ProjectSet.url} target="_blank" rel="noopener noreferrer"><img src={extLink} alt=""/></a>
+                                        </span>
+                                        <span className="link">
+                                            <a href={ProjectSet.githubUrl} target="_blank" rel="noopener noreferrer"><img src={GithubImg} alt=""/></a>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         )
