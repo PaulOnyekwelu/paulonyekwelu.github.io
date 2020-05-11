@@ -50,10 +50,10 @@ const Projects = () => {
                                         {
                                             ProjectSet.accomplishments.map( accomplishment => {
                                                 return (
-                                                    <>
+                                                    <React.Fragment key={accomplishment.id}>
                                                     <span className="accomplishment-id"> -> </span>
                                                     <span className="accomplishment-detail">{accomplishment.detail}</span> <br />
-                                                    </>
+                                                    </React.Fragment>
                                                 )
                                             })
                                         }
