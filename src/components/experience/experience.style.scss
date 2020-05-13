@@ -4,7 +4,7 @@
 
     .experiences-title{
         font-size: 1.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         background: rgb(72,49,212);
         color: white;
         padding: 1rem;
@@ -79,6 +79,28 @@
                 .experience-date{
                     margin: 1rem 0;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px){
+    .experiences {
+
+        .experiences-title{
+            padding: 1.5rem 1rem;
+            
+        }
+        
+        .experiences-section{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+    
+            .experience{
+                border-radius: 0.2rem;
+                width: 48%;
             }
         }
     }

@@ -11,12 +11,12 @@ const Nav = ({ MenuToggle, customClass}) => {
                 </div>
                 <div>
                     <ul className="nav-section">
-                        <li className="nav-item"><a href="/">About Me</a></li>
-                        <li className="nav-item"><a href="/skill">Skills</a></li>
-                        <li className="nav-item"><a href="/projects">Projects</a></li>
-                        <li className="nav-item"><a href="/experience">Experience</a></li>
+                        <li className="nav-item"><a href="#about">About Me</a></li>
+                        <li className="nav-item"><a href="#skills">Skills</a></li>
+                        <li className="nav-item"><a href="#projects">Projects</a></li>
+                        <li className="nav-item"><a href="#experience">Experience</a></li>
                         {/* <li className="nav-item"><a href="/education">Education</a></li> */}
-                        <li className="nav-item"><a href="/contact">Contact</a></li>
+                        <li className="nav-item"><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>

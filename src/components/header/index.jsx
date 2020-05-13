@@ -15,19 +15,19 @@ const Header = () => {
     return (
         <header className="header"> 
             <Nav customClass={ menuToggle ? 'showMenu' : 'hideMenu' } MenuToggle = {toggleHamburger}  />     
-            <div className="header-left">
+            <div className={`header-left ${menuToggle ? 'blurHeader' : null}`}>
                 <div className="header-left-top">
                     <div className="hamburger" onClick={toggleHamburger}>
                         <div></div>
                         <div></div>
                         <div></div>
                     </div>
-                    <Logo />
+                    <Logo customClass="place-right" />
                 </div>
                 <HeaderDescription />
             </div>
-            <div className="header-right">
-                <Avatar />
+            <div className={`header-right ${menuToggle ? 'blurHeader' : null}`}>
+                <Avatar customClass = "header-img" />
             </div>        
         </header>
     )

@@ -5,7 +5,7 @@
 
     .contact-title{
         font-size: 1.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         background: rgb(72,49,212);
         color: white;
         padding: 1rem;
@@ -22,6 +22,8 @@
         -webkit-box-shadow: 0 0 1px;
         box-shadow: 0 0 1px;
         border-radius: 0.2rem;
+        max-width: 700px;
+        margin: 0 auto;
 
         .contact-intro{
             color: rgb(72,49,212);
@@ -69,5 +71,13 @@
     }
     100%{
         transform: translateX(0deg);
+    }
+}
+
+@media screen and (min-width: 769px){
+    .contact{
+        .contact-title{
+            padding: 1.5rem 1rem;
+        }
     }
 }

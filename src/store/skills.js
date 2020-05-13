@@ -44,12 +44,19 @@ const skillSets = {
         { id:14, imgUrl:MongoDbImg, caption: "MongoDB", alt:""},
         { id:15, imgUrl:PostgreImg, caption: "PostgreSql", alt:""},
     ],
-    "OTHERS":[
-        { id:16, imgUrl:GithubImg, caption: "GIT & GitHub", alt:""},
-        { id:17, imgUrl:HerokuImg, caption: "Heroku", alt:""},
+    "BUILD TOOLS":[
+        // { id:16, imgUrl:GithubImg, caption: "GIT & GitHub", alt:""},
+        // { id:17, imgUrl:HerokuImg, caption: "Heroku", alt:""},
         { id:18, imgUrl:WebPackImg, caption: "WebPack", alt:""},
         { id:19, imgUrl:GulpImg, caption: "Gulp", alt:""},
         // { id:20, imgUrl:PostgreImg, caption: "PostgreSql", alt:""},
+    ],
+    "OTHERS":[
+        { id:21, imgUrl:GithubImg, caption: "GIT & GitHub", alt:""},
+        { id:22, imgUrl:HerokuImg, caption: "Heroku", alt:""},
+        // { id:23, imgUrl:WebPackImg, caption: "WebPack", alt:""},
+        // { id:24, imgUrl:GulpImg, caption: "Gulp", alt:""},
+        // { id:25, imgUrl:PostgreImg, caption: "PostgreSql", alt:""},
     ]
 }
 

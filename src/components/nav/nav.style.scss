@@ -1,13 +1,15 @@
 
 .nav{
-    background:white;
-    color: white;
-    font-family: 'Gilroy-light', sans-serif;
+    // background:white;
+    // color: white;
+    // font-family: 'Gilroy-light', sans-serif;
 }
 
 .nav{
     width: 70vw;
     height: 100%;
+    background:white;
+    font-family: 'Gilroy-light', sans-serif;
     // clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 
     .logo-section{
@@ -34,7 +36,7 @@
             list-style-type: none;
             padding: 0rem;
             margin: 1rem;
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
 
             a{
                 font-size: 1.8rem;
@@ -46,7 +48,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 500px){
     .nav{
         width: 70vw;
         height: 100%;
@@ -65,8 +67,8 @@
         }
 
         .nav-section{
-            width: 70vw;
-            height: 85%;
+            height: 500px;
+            width: 400px;
             display: flex;
             flex-direction: column;
             align-items: flex-end;

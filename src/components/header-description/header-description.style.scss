@@ -1,5 +1,3 @@
-
-
 .header-description {
     margin: 2rem;
     color: white;
@@ -16,19 +14,22 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 769px){
     .header-description {
         margin: 2rem;
+        margin-top: 5rem;
         color: white;
+        width: 40vw;
+        padding:1rem;
     
         .header-description-title{
-            font-size: 1.5rem;
+            font-size: 2rem;
             color: rgb(204,242,129);;
         }
     
         .header-description-text{
             margin-top: 1rem;
-            font-size: 1.3rem;
+            font-size: 2rem;
         }
     }
 }

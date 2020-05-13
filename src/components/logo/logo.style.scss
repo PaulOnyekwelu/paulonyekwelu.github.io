@@ -1,7 +1,5 @@
-
 .logo-brand{
     padding: 0.5rem;
-    // background: red;
     font-size: 1.6rem;
     font-family: "Gilroy-bold", sans-serif;
     border-radius: 0.5rem;
@@ -10,5 +8,17 @@
     a{
         text-decoration: none;
         color: rgb(204,242,129);
+    }
+}
+
+@media screen and (min-width: 769px){
+    .logo-brand{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+
+        a{
+            color: rgb(72,49,212);
+        }
     }
 }

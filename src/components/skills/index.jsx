@@ -3,10 +3,9 @@ import "./skills.style.scss";
 import skillSets from '../../store/skills';
 
 
-
 const Skills = () => {
     return (
-        <section className = "skills">
+        <section className = "skills" id="skills">
             <h2 className = "skills-title">SKILLS</h2>
             <div className = "skills-list">
                     {

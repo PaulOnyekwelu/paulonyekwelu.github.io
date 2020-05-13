@@ -4,8 +4,8 @@ import Experiences from '../../store/experience';
 
 const Experience = () => {
     return (
-        <section className="experiences">
-            <div className = "experiences-title">Experience</div>
+        <section className="experiences" id="experience">
+            <div className = "experiences-title">EXPERIENCE</div>
             <div className="experiences-section">
 
                 {

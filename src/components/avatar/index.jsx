@@ -5,10 +5,10 @@ import Paul from '../../images/paul.jpg';
 
 import './avatar.style.scss';
 
-const Avatar = () => {
+const Avatar = ({customClass}) => {
     return (
-        <figure className="mobile-avatar">
-            <img className="img-banner" src={Banner} alt=""/>
+        <figure className={`mobile-avatar ${customClass}`} >
+            <img className="img-banner"  src={Banner} alt=""/>
             <img className="img-avatar" src={Paul} alt=""/>
         </figure>
     )
