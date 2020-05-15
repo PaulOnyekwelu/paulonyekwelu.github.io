@@ -1,6 +1,19 @@
-import { AlcImg } from "../images/experience";
+import { AlcImg, GitPayImg } from "../images/experience";
+
 
 const Experiences  = [
+    {
+        "id": 3,
+        "logoUrl": GitPayImg,
+        "companyName" : "GitPay",
+        "jobRole": "Junior Javascript Developer",
+        "companyProduct": "Contribute, learn and receive bounties by solving git issues",
+        "accomplishments": [
+            "Task completion - fixing of duplicate user on the interested user section of tasks.",
+            "Designed and implemented node features using clean code practices and design patterns"
+        ],
+        "date": "March, 2020 - Present"
+    },
     {
         "id": 2,
         "logoUrl": AlcImg,

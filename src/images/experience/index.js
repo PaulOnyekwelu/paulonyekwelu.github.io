@@ -1,5 +1,7 @@
-import AlcImg from './alcWithGoogle.png'
+import AlcImg from './alcWithGoogle.png';
+import GitPayImg from './gitpay.png';
 
 export {
-    AlcImg
+    AlcImg,
+    GitPayImg
 }
