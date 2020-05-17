@@ -1,5 +1,4 @@
 import React from 'react';
-import './header-description.style.scss';
 
 const HeaderDescription = ()  => {
     return(

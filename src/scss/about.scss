@@ -1,0 +1,27 @@
+.about-me{
+    padding: $section-padding-mobile;
+    width: $section-width-mobile;
+    background-color: $primary-bg-color;
+
+    .about-me-text{
+        font-size: $normal-weight;
+        color: $font-color;
+        background: white;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 769px){
+    .about-me{
+        padding: $section-padding-desktop;
+        width: $section-width-desktop;
+        max-width: 1000px;
+        background-color:$secondary-bg-color;
+        margin: $section-margin-desktop;
+
+        .about-me-text{
+            border-left: 2px solid $color-primary;
+            border-right: 2px solid $color-primary;
+        }
+    }
+}

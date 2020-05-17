@@ -1,11 +1,10 @@
 import React from 'react';
-
-import './contact.style.scss';
+import SectionHeader from './section-header';
 
 const Contact = () => {
     return (
         <section className="contact" id="contact">
-            <h2 className="contact-title">Contact Me</h2>
+            <SectionHeader title="CONTACT ME" />
             <div className="contact-me">
                 <p className="contact-intro">Hey, have something for me? Hit me up!</p>
                 <form action="" className="contact-form">

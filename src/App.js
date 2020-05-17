@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-import Header from './components/header';
-import AboutMe from './components/about';
-import Skills from './components/skills';
-import Projects from './components/projects';
-import Experience from './components/experience';
-import Contact from './components/contact';
+import Header from './components/header.jsx';
+import AboutMe from './components/about.jsx';
+import Skills from './components/skills.jsx';
+import Projects from './components/projects.jsx';
+import Experience from './components/experience.jsx';
+import Contact from './components/contact.jsx';
 
 function App() {
   return (

@@ -5,7 +5,7 @@
     .header-left{
         width: 100vw;
         height: 60vh;
-        background: rgb(72,49,212);
+        background: $color-primary;
 
         .header-left-top{
             display: flex;
@@ -17,7 +17,7 @@
                 & > div {
                     width: 1rem;
                     height: 2px;
-                    background: rgb(204,242,129);
+                    background: $color-secondary;
                     margin-top: 0.6rem;
                     margin-left: 1rem;
         
@@ -36,7 +36,7 @@
     .header-right{
         width: 100vw;
         height: 40vh;
-        background: rgb(204,242,129);
+        background: $color-secondary;
 
 
     }

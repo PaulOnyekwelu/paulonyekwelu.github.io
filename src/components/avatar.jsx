@@ -1,9 +1,7 @@
 import React from 'react';
 
-import Banner from '../../images/banner.svg';
-import Paul from '../../images/paul.jpg';
-
-import './avatar.style.scss';
+import Banner from '../images/banner.svg';
+import Paul from '../images/paul.jpg';
 
 const Avatar = ({customClass}) => {
     return (

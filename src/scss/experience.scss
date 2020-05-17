@@ -1,18 +1,6 @@
 .experiences {
-    padding: 7%;
-    width: 86%;
-
-    .experiences-title{
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-        background: rgb(72,49,212);
-        color: white;
-        padding: 1rem;
-        text-align: center;
-        // clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-        clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-        border-radius: 1rem;
-    }
+    padding: $section-padding-mobile;
+    width: $section-width-mobile;
 
     .experiences-section{
         width: 100%;
@@ -23,8 +11,8 @@
             border-radius: 0.2rem;
             width: 100%;
             overflow: hidden;
-            background: rgb(228, 228, 245);
-            color:rgb(62, 59, 71);
+            background: $primary-bg-color;
+            color:$font-color;
             -moz-box-shadow:0 0 1px;
             -webkit-box-shadow: 0 0 1px;
             box-shadow: 0 0 1px;
@@ -46,9 +34,9 @@
                     display: flex;
                     justify-content: space-around;
                     align-items: flex-end;
-                    color: rgb(72,49,212);
+                    color: $color-primary;
                     padding-bottom: 1rem;
-                    border-bottom: 2px solid rgb(72,49,212);
+                    border-bottom: 2px solid $color-primary;
 
                     img{
                         width: 50%;
@@ -57,7 +45,6 @@
 
                 .job-role{
                     padding-top: 1rem;
-                    // color:white ;
                 }
             }
 
@@ -67,9 +54,8 @@
 
                 .experience-description{
                     font-style:italic;
-                    border-left: 2px solid rgb(72,49,212);
+                    border-left: 2px solid $color-primary;
                     padding-left: 1rem;
-                    // padding-bottom: 1rem;
                 }
 
                 .experience-accomplishment{
@@ -86,22 +72,21 @@
 
 @media screen and (min-width: 769px){
     .experiences {
-
-        .experiences-title{
-            padding: 1.5rem 1rem;
-            
-        }
+        padding: $section-padding-desktop;
+        width: $section-width-desktop;
+        max-width: 1000px;
+        background-color:$secondary-bg-color;
+        margin: $section-margin-desktop;
         
         .experiences-section{
-            width: 100%;
-            display: flex;
             flex-direction: row;
             justify-content: space-between;
             flex-wrap: wrap;
+            
     
             .experience{
-                border-radius: 0.2rem;
                 width: 48%;
+                margin-top: 1rem;
             }
         }
     }

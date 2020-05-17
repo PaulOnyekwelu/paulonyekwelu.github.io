@@ -1,12 +1,13 @@
 import React from 'react';
-import "./skills.style.scss";
-import skillSets from '../../store/skills';
+
+import skillSets from '../store/skills';
+import SectionHeader from './section-header';
 
 
 const Skills = () => {
     return (
         <section className = "skills" id="skills">
-            <h2 className = "skills-title">SKILLS</h2>
+            <SectionHeader title="SKILLS" />
             <div className = "skills-list">
                     {
                         Object.entries(skillSets).map( (value) => {

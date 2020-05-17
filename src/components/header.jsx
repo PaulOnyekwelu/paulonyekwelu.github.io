@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Nav from '../nav';
-import Logo from '../logo';
+import Nav from './nav.jsx';
+import Logo from './logo.jsx';
 
-import './header.style.scss';
-import Avatar from '../avatar';
-import HeaderDescription from '../header-description';
+// import './header.style.scss';
+import Avatar from './avatar.jsx';
+import HeaderDescription from './header-description.jsx';
 
 const Header = () => {
     let [menuToggle, setMenuToggle] = useState(false);

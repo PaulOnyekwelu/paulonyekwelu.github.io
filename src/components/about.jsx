@@ -1,11 +1,10 @@
 import React from 'react';
-
-import './about.style.scss';
+import SectionHeader from './section-header';
 
 const AboutMe = () => {
     return (
         <section className = "about-me" id="about">
-            <h2 className="about-me-title">ABOUT ME</h2>
+            <SectionHeader title="ABOUT ME" />
             <div className = "about-me-text">
                 <p>
                     My name is Paul Onyekwelu and I am a software Developer always in beta mode. 

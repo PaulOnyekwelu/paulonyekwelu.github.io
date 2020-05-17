@@ -1,5 +1,4 @@
 import React from 'react';
-import './nav.style.scss';
 
 const Nav = ({ MenuToggle, customClass}) => {
     return (

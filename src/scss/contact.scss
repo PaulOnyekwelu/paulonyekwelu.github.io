@@ -1,21 +1,10 @@
 .contact{
     padding: 7%;
     width: 86%;
-    background: rgb(228, 228, 245);
-
-    .contact-title{
-        font-size: 1.5rem;
-        margin-bottom: 2rem;
-        background: rgb(72,49,212);
-        color: white;
-        padding: 1rem;
-        text-align: center;
-        clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-        border-radius: 1rem;
-    }
+    background: $color-primary;
 
     .contact-me{
-        background: white;
+        background: $secondary-bg-color;
         color:rgb(161, 157, 172);
         padding: 1rem;
         -moz-box-shadow:0 0 1px;
@@ -26,7 +15,7 @@
         margin: 0 auto;
 
         .contact-intro{
-            color: rgb(72,49,212);
+            color: $color-primary;
             padding: 1rem 0;
         }
 
@@ -35,7 +24,7 @@
 
             .form-item{
                 border:none;
-                border-bottom: 1px solid rgb(139, 126, 224);
+                border-bottom: 1px solid $color-primary;
                 margin-bottom: 1rem;
                 width: 100%;
 
@@ -46,14 +35,14 @@
             }
 
             .submit{
-                border: 1px solid rgb(72,49,212);
+                border: 1px solid $color-primary;
                 padding: 0.7rem 2rem;
-                background: rgb(255, 255, 255);
+                background: $secondary-bg-color;
                 margin: 0 auto;
 
                 &:active{
                     animation: fadeIn 5s ease;
-                    background:rgb(72,49,212);
+                    background:$color-primary;
                     color: white;
                 }
             }
@@ -76,8 +65,6 @@
 
 @media screen and (min-width: 769px){
     .contact{
-        .contact-title{
-            padding: 1.5rem 1rem;
-        }
+
     }
 }

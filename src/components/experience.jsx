@@ -1,11 +1,11 @@
 import React from 'react';
-import './experience.style.scss';
-import Experiences from '../../store/experience';
+import Experiences from '../store/experience';
+import SectionHeader from './section-header';
 
 const Experience = () => {
     return (
         <section className="experiences" id="experience">
-            <div className = "experiences-title">EXPERIENCE</div>
+            <SectionHeader title="EXPERIENCE" />
             <div className="experiences-section">
 
                 {
