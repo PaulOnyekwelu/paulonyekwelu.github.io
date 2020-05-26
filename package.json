@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start:spa": "react-scripts start",
-    "start": "nodemon server/index.js",
+    "start": "node server/index.js",
+    "start:dev": "nodemon server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
