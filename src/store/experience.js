@@ -6,7 +6,7 @@ const Experiences  = [
         "id": 3,
         "logoUrl": GitPayImg,
         "companyName" : "GitPay",
-        "jobRole": "Junior Javascript Developer",
+        "jobRole": "Junior Developer",
         "companyProduct": "Contribute, learn and receive bounties by solving git issues",
         "accomplishments": [
             "Task completion - fixing of duplicate user on the interested user section of tasks.",
