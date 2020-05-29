@@ -3,16 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-
-const renderMethod = module.hot ? ReactDOM.render : ReactDOM.hydrate;
-// renderMethod(
-//   <BrowserRouter>
-//     <RoutersController data={data} routes={routes} />
-//   </BrowserRouter>,
-//   document.getElementById('root')
-// );
-
-renderMethod(
+ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
