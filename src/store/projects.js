@@ -1,4 +1,4 @@
-import { ShopliteImg, InsuranceImg, DevProfiler } from "../images/projects";
+import { ShopliteImg, InsuranceImg, DevProfiler, HFinder } from "../images/projects";
 
 
 const Data  = [
@@ -29,7 +29,8 @@ const Data  = [
             { "id": 3, "detail": "User Authentication using Firebase" },
             { "id": 4, "detail": "Firebase-firestore for data storage" },
             { "id": 5, "detail": "css-in-js styled component for styling" },
-            { "id": 6, "detail": "test-stripe payment for confirming checkout" }
+            { "id": 6, "detail": "test-stripe payment for confirming checkout" },
+            { "id": 7, "detail": "App deployed to heroku" },
         ],
         "url": "https://shoplite.herokuapp.com/",
         "githubUrl": "https://github.com/silanka007/shoplite",
@@ -37,6 +38,23 @@ const Data  = [
     },
     {
         "id": 3,
+        "name" : "Hospital Finder",
+        "imageUrl": HFinder,
+        "description": "A simple app that takes in a search query of location and geofencing radius. it finds the provided location in the map while restricting the search result to the provided radius.",
+        "accomplishments": [
+            { "id": 1, "detail": "Project was built with React.Js and Typescript" },
+            { "id": 2, "detail": "Strict Typing with typescript" },
+            { "id": 3, "detail": "Google Maps API and Place API for place search" },
+            // { "id": 4, "detail": "Firebase-firestore for data storage" },
+            // { "id": 5, "detail": "css-in-js styled component for styling" },
+            { "id": 5, "detail": "App deployed to Netlify" },
+        ],
+        "url": "https://stupefied-stonebraker-0fb12c.netlify.app/",
+        "githubUrl": "https://github.com/silanka007/hospital-finder",
+        "showRear": false
+    },
+    {
+        "id": 4,
         "name" : "Insurance - Landing Page",
         "imageUrl": InsuranceImg,
         "description": "A simple landing page for insurance company. It is a reaction to a challenge posted on frontend mentors. An easier way to exercise over the weekends.",
@@ -47,6 +65,7 @@ const Data  = [
             // { "id": 4, "detail": "Firebase-firestore for data storage" },
             // { "id": 5, "detail": "css-in-js styled component for styling" },
             // { "id": 6, "detail": "test-stripe payment for confirming checkout" }
+            { "id": 5, "detail": "App deployed to github-pages" },
         ],
         "url": "https://silanka007.github.io/insurance_landing_page/",
         "githubUrl": "https://github.com/silanka007/insurance_landing_page",
