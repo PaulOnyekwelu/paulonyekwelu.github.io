@@ -3,6 +3,20 @@ import { AlcImg, GitPayImg } from "../images/experience";
 
 const Experiences  = [
     {
+        "id": 4,
+        "logoUrl": AlcImg,
+        "companyName" : "Google Africa Developer Scholarship Program",
+        "jobRole": "Volunteer Mentor",
+        "companyProduct": "An online practice-based learning platform open to everyone interested in acquiring technical skills, regardless of their educational background.",
+        "accomplishments": [
+            "mentor learners for the mobile web specialist path",
+            "assist them in their learning", 
+            "document their engagements with learning materials and their achievements",
+            "unblock them on well to use the learning materials."
+        ],
+        "date": "June, 2020 - Present"
+    },
+    {
         "id": 3,
         "logoUrl": GitPayImg,
         "companyName" : "GitPay",
@@ -17,8 +31,8 @@ const Experiences  = [
     {
         "id": 2,
         "logoUrl": AlcImg,
-        "companyName" : "AlcWithGoogle",
-        "jobRole": "Volunteer JavaScript Mentor",
+        "companyName" : "Google Africa Developer Scholarship Program",
+        "jobRole": "Volunteer Mentor",
         "companyProduct": "An online practice-based learning platform open to everyone interested in acquiring technical skills, regardless of their educational background.",
         "accomplishments": [
             "Volunteer mentoring of fellow participants in the batch B category on the use of Javascript.",
@@ -28,7 +42,7 @@ const Experiences  = [
     {
         "id": 1,
         "logoUrl": AlcImg,
-        "companyName" : "AlcWithGoogle",
+        "companyName" : "Google Africa Developer Scholarship Program",
         "jobRole": "Frontend Developer Intern",
         "companyProduct": "An online practice-based learning platform open to everyone interested in acquiring technical skills, regardless of their educational background.",
         "accomplishments": [

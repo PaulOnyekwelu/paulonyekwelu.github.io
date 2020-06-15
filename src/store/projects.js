@@ -1,9 +1,25 @@
-import { ShopliteImg, InsuranceImg } from "../images/projects";
+import { ShopliteImg, InsuranceImg, DevProfiler } from "../images/projects";
 
 
 const Data  = [
     {
         "id": 1,
+        "name" : "DevProfiler",
+        "imageUrl": DevProfiler,
+        "description": "A social media platform for developers, featuring read, create, update, delete, like and unlike functionalities",
+        "accomplishments": [
+            { "id": 1, "detail": "A MERN application" },
+            { "id": 2, "detail": "state management using React-redux" },
+            { "id": 3, "detail": "MongoDb for data storage" },
+            { "id": 4, "detail": "React function components and hooks" },
+            { "id": 5, "detail": "App deployed to heroku" },
+        ],
+        "url": "https://devprofiler.herokuapp.com/",
+        "githubUrl": "https://github.com/silanka007/devProfiler",
+        "showRear": false
+    },
+    {
+        "id": 2,
         "name" : "ShopLite E-commerce",
         "imageUrl": ShopliteImg,
         "description": "An E-commerce web application built to consolidate on what I learnt about React-Redux",
@@ -20,7 +36,7 @@ const Data  = [
         "showRear": false
     },
     {
-        "id": 2,
+        "id": 3,
         "name" : "Insurance - Landing Page",
         "imageUrl": InsuranceImg,
         "description": "A simple landing page for insurance company. It is a reaction to a challenge posted on frontend mentors. An easier way to exercise over the weekends.",
