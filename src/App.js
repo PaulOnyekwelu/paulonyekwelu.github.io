@@ -11,11 +11,11 @@ function App() {
   return (
     <main className="App">
       <Header />
-      <AboutMe />
+      {/* <AboutMe />
       <Skills />
       <Projects />
       <Experience />
-      <Contact />
+      <Contact /> */}
     </main>
   );
 }

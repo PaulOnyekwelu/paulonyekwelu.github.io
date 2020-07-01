@@ -1,15 +1,47 @@
 .header-description {
     margin: 2rem;
-    color: white;
+    color: $primary-text;
+
 
     .header-description-title{
         font-size: 1.5rem;
-        color: $color-secondary;
+        color: $secondary-text;
+        animation: animateDesc 4s linear infinite;
     }
 
     .header-description-text{
         margin-top: 1rem;
         font-size: 1.3rem;
+    }
+
+    .socials{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2rem;
+
+        .social{
+            margin-right: 2rem;
+            background: $secondary-bg-color;
+            padding: 4px;
+
+            a{
+                color: white;
+                text-decoration: none;
+                border-bottom: 2px solid $secondary-text;
+            }
+        }
+    }
+}
+
+@keyframes animateDesc {
+    0%{
+        filter: hue-rotate(0deg)
+    }
+    50%{
+        filter: hue-rotate(360deg)
+    }
+    100%{
+        filter: hue-rotate(300deg)
     }
 }
 
@@ -27,5 +59,24 @@
         .header-description-text{
             font-size: 2rem;
         }
+
+        .socials{
+    
+            .social{
+                padding: 8px;
+    
+                a{
+                    color: white;
+                    text-decoration: none;
+                    border-bottom: 3px solid $secondary-text;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 769px){
+    .header-description{
+        margin-top: 10rem;
     }
 }
