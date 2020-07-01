@@ -2,12 +2,12 @@
     padding: 0.5rem;
     font-size: 1.6rem;
     font-family: "Gilroy-bold", sans-serif;
-    border-radius: 0.5rem;
+    border-radius: 0.1rem;
     margin: 1rem;
 
     a{
         text-decoration: none;
-        color: $secondary-text;
+        color: $primary-color;
     }
 }
 
@@ -16,9 +16,5 @@
         position: absolute;
         top: 1rem;
         right: 1rem;
-
-        a{
-            color: $secondary-text;
-        }
     }
 }

@@ -15,9 +15,10 @@
 
     .img-avatar{
         height: 80%;
-        outline: 1px solid white;
+        outline: 1px solid $common-color;
         outline-offset: 1rem;
         z-index: 2;
+        background: $common-color;
     }
 }
 
@@ -43,7 +44,6 @@
     
         .img-avatar{
             height: 60%;
-            outline: 1px solid white;
             outline-offset: 1rem;
             z-index: 2;
         }

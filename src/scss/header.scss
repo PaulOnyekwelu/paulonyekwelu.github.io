@@ -1,11 +1,14 @@
 .header{
     width: 100vw;
     height: 100vh;
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .header-left{
         width: 100vw;
         height: 60vh;
-        background: $color-primary;
+        background-color: rgba($color: $primary-bg, $alpha: 1);
 
         .header-left-top{
             display: flex;
@@ -17,9 +20,9 @@
                 & > div {
                     width: 1rem;
                     height: 2px;
-                    background: $secondary-text;
                     margin-top: 0.6rem;
                     margin-left: 1rem;
+                    background: $secondary-bg;
         
                 }
                 & > div:nth-child(1){
@@ -36,7 +39,7 @@
     .header-right{
         width: 100vw;
         height: 40vh;
-        background: $secondary-bg-color;
+        background-color: rgba($color: $primary-bg, $alpha: 0.7);
 
 
     }
@@ -66,6 +69,7 @@
         height: 100vh;
         width: 100vw;
         position: relative;
+        
 
         .header-left{
             height: 100%;
@@ -88,5 +92,6 @@
             opacity: 0.8;
             filter: none;
         }
+        
     }
 }

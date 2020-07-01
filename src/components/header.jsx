@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './nav.jsx';
 import Logo from './logo.jsx';
-
-// import './header.style.scss';
 import Avatar from './avatar.jsx';
 import HeaderDescription from './header-description.jsx';
 

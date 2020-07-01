@@ -1,12 +1,12 @@
 .header-description {
     margin: 2rem;
-    color: $primary-text;
+    color: $primary-color;
 
 
     .header-description-title{
         font-size: 1.5rem;
-        color: $secondary-text;
-        animation: animateDesc 4s linear infinite;
+        color: lighten($color: $common-color, $amount: 50%);
+        animation: animateDesc 4s ease-in-out infinite;
     }
 
     .header-description-text{
@@ -21,13 +21,13 @@
 
         .social{
             margin-right: 2rem;
-            background: $secondary-bg-color;
+            background: $common-color;
             padding: 4px;
 
             a{
                 color: white;
                 text-decoration: none;
-                border-bottom: 2px solid $secondary-text;
+                border-bottom: 2px solid $secondary-color;
             }
         }
     }
@@ -68,7 +68,7 @@
                 a{
                     color: white;
                     text-decoration: none;
-                    border-bottom: 3px solid $secondary-text;
+                    border-bottom: 3px solid $secondary-color;
                 }
             }
         }
