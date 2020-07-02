@@ -6,19 +6,28 @@
     justify-content: center;
     align-items: center;
 
-    .img-banner{
-        width: 90vw;
-        position: absolute;
-        z-index: 1;
-        padding-top: 1rem;
-    }
-
     .img-avatar{
         height: 80%;
         outline: 1px solid $common-color;
         outline-offset: 1rem;
         z-index: 2;
         background: $common-color;
+        animation: slide 1s ease-in;
+    }
+}
+
+@keyframes slide {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    90%{
+        transform: scale(1.5);
+        opacity: 0.4;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
     }
 }
 
@@ -34,13 +43,6 @@
         position: absolute;
         left: 25%;
         margin-top: 4rem;
-    
-        .img-banner{
-            width: 35%;
-            position: absolute;
-            z-index: 1;
-            padding-top: 1rem;
-        }
     
         .img-avatar{
             height: 60%;

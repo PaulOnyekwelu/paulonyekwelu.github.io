@@ -55,6 +55,7 @@
         height: 60vh;
         width: 70vw;
         z-index: 3;
+        animation: showSlider 0.5s ease-out;
     }
 
     .blurHeader{
@@ -62,6 +63,17 @@
         filter: blur(2px);
     }
 }
+
+@keyframes showSlider {
+    0%{
+        display: block;
+        transform: translateX(-200px)
+    }
+    100%{
+        transform: translateX(0px)
+    }
+}
+
 
 @media screen and (min-width: 769px) {
     .header{
@@ -74,6 +86,7 @@
         .header-left{
             height: 100%;
             width: 65%;
+            padding-left: 2rem;
         }
 
         .header-right{
