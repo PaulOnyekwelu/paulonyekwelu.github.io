@@ -8,7 +8,7 @@ const Header = () => {
     let [menuToggle, setMenuToggle] = useState(false);
 
     const toggleHamburger = () => {
-        setMenuToggle(!menuToggle)
+        // setMenuToggle(!menuToggle)
     }
     return (
         <header className="header"> 
